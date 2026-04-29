@@ -1,0 +1,76 @@
+﻿node.exe : [31mfailed to 
+load config from C:\Users\ASU
+S\Desktop\emad2\vite.config.t
+s[39m
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" "C:\Us
+ers\ASUS\AppData\Roaming\n 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ([31mfa  
+  iled to ....config.ts[3   
+ 9m:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+[31merror during build:
+file:///C:/Users/ASUS/Desktop
+/emad2/node_modules/.vite-tem
+p/vite.config.ts.timestamp-17
+77422502225-5b6ff2a72078f8.mj
+s:7
+import vercel from "file:///C
+:/Users/ASUS/Desktop/emad2/no
+de_modules/vite-plugin-vercel
+/dist/index.js";
+       ^^^^^^
+SyntaxError: The requested 
+module 'file:///C:/Users/ASUS
+/Desktop/emad2/node_modules/v
+ite-plugin-vercel/dist/index.
+js' does not provide an 
+export named 'default'
+    at #asyncInstantiate (nod
+e:internal/modules/esm/module
+_job:319:21)
+    at async ModuleJob.run (n
+ode:internal/modules/esm/modu
+le_job:422:5)
+    at async onImport.tracePr
+omise.__proto__ (node:interna
+l/modules/esm/loader:661:26)
+    at async 
+loadConfigFromBundledFile (fi
+le:///C:/Users/ASUS/Desktop/e
+mad2/node_modules/vite/dist/n
+ode/chunks/config.js:35920:12
+)
+    at async 
+bundleAndLoadConfigFile (file
+:///C:/Users/ASUS/Desktop/ema
+d2/node_modules/vite/dist/nod
+e/chunks/config.js:35808:17)
+    at async 
+loadConfigFromFile (file:///C
+:/Users/ASUS/Desktop/emad2/no
+de_modules/vite/dist/node/chu
+nks/config.js:35775:42)
+    at async resolveConfig (f
+ile:///C:/Users/ASUS/Desktop/
+emad2/node_modules/vite/dist/
+node/chunks/config.js:35424:2
+2)
+    at async createBuilder (f
+ile:///C:/Users/ASUS/Desktop/
+emad2/node_modules/vite/dist/
+node/chunks/config.js:33879:1
+9)
+    at async CAC.<anonymous> 
+(file:///C:/Users/ASUS/Deskto
+p/emad2/node_modules/vite/dis
+t/node/cli.js:629:10)[39m
